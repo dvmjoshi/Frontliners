@@ -31,7 +31,6 @@ Project Submission  for 30 Days of Kotlin with Google Developers
 
 Fronliner App               |  Home Page               | Covid-19 Tracker Page               |  Discover Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/24698014/83753605-3a2cd080-a688-11ea-9047-dd201e884574.png" width="280" height="550">
 [](https://user-images.githubusercontent.com/24698014/83753594-31d49580-a688-11ea-83c4-a8eabc5505ca.png?raw=true)|![](https://user-images.githubusercontent.com/24698014/83753596-339e5900-a688-11ea-81e9-104b733f6988.png?raw=true)|![](https://user-images.githubusercontent.com/24698014/83753599-3600b300-a688-11ea-9b68-26620b73814b.png?raw=true)|
 
 No Internet Connection Page        |       |                | 
