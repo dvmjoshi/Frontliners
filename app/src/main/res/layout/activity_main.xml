@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headertitle"
+        android:text="@string/header_tilte"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/headingName" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:text="@string/subheading"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headertitle"
+        style="@style/NameStyle" />
+
+    <ImageView
+        android:id="@+id/Frontliner_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/frontliner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+    <LinearLayout
+        android:id="@+id/parent_result"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/Frontliner_image">
+
+        <LinearLayout
+            android:id="@+id/h1"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_item_result"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+             <com.airbnb.lottie.LottieAnimationView
+                 android:id="@+id/animationView"
+                 android:layout_width="120dp"
+                 android:layout_height="80dp"
+                 android:scaleType="centerCrop"
+                 app:lottie_rawRes="@raw/coronavirus"
+                 app:lottie_autoPlay="true"
+                 app:lottie_loop="true"
+                 />
+
+                <TextView
+                    style="@style/NameStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/track"
+                    android:textAlignment="center"
+                    android:textColor="@color/blueSecond"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_btn_primary"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/Status"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/h2"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_item_result"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView2"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    app:lottie_rawRes="@raw/good"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    />
+
+                <TextView
+                    style="@style/NameStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/Appreciate"
+                    android:textAlignment="center"
+                    android:textColor="@color/blueSecond"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_btn_primary"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/discover"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="16sp" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

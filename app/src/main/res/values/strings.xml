@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Frontliners</string>
+    <string name="header_tilte">Frontliners</string>
+    <string name="subheading">Thank you for your service and sacrifice during this difficult time.</string>
+    <string name="coronaheading">COVID-19 Tracker</string>
+    <string name="lastupdatetime">Last Updated</string>
+    <string name="Confirmed">Confirmed</string>
+    <string name="Active">Active</string>
+    <string name="Recovered">Recovered</string>
+    <string name="Deceased">Deceased</string>
+    <string name="appreciate">Discover and Appreciate</string>
+    <string name="track">Track Covid-19</string>
+    <string name="Status">Status</string>
+    <string name="Appreciate">Appreciate</string>
+    <string name="discover">Discover</string>
+    <string name="state">STATE/UT</string>
+    <string name="cnf">CNFMD</string>
+    <string name="act">ACTV</string>
+    <string name="rcvrd">RCVRD</string>
+    <string name="dcsd">DCSD</string>
+    <string name="deeds">GoodDeeds</string>
+    <string name="find">make yourself productive</string>
+
+</resources>
