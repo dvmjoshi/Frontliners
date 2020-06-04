@@ -4,6 +4,8 @@ Project Submission  for 30 Days of Kotlin with Google Developers
 * Covid 19 India Tracker 
 * Show Current Status From Api
 * List Of Cases Statewise
+* Appreciate Page
+* Animations
 ## Kotlin Concept used
 * Kotlin Singleton
 * Coroutine
