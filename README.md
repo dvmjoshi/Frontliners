@@ -27,7 +27,7 @@ Project Submission  for 30 Days of Kotlin with Google Developers
     implementation "com.airbnb.android:lottie:$lottieVersion"
 </details>
 
-## Fronliner App        
+## Frontliners App        
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://user-images.githubusercontent.com/24698014/83754927-65b0ba80-a68a-11ea-8538-664e783ae6e9.gif" width="280" height="550">
 ## Screenshots
