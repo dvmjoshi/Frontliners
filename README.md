@@ -4,6 +4,12 @@ Project Submission  for 30 Days of Kotlin with Google Developers
 * Covid 19 India Tracker 
 * Show Current Status From Api
 * List Of Cases Statewise
+## Kotlin Concept used
+* Kotlin Singleton
+* Coroutine
+* Data Classes
+* late-initialized properties
+* Named Parameter
 
 ## Dependencies
 <details>
@@ -23,13 +29,13 @@ Project Submission  for 30 Days of Kotlin with Google Developers
 
 ## Screenshots
 
-Welcome Page               |  Login Page               | Signup Page               |  Forgot Password Page
+Fronliner App               |  Home Page               | Covid-19 Tracker Page               |  Discover Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_3.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
+![](https://user-images.githubusercontent.com/24698014/83754927-65b0ba80-a68a-11ea-8538-664e783ae6e9.gif?raw=true)|![](https://user-images.githubusercontent.com/24698014/83753594-31d49580-a688-11ea-83c4-a8eabc5505ca.png?raw=true)|![](https://user-images.githubusercontent.com/24698014/83753596-339e5900-a688-11ea-81e9-104b733f6988.png?raw=true)|![](https://user-images.githubusercontent.com/24698014/83753599-3600b300-a688-11ea-9b68-26620b73814b.png?raw=true)|
 
-Home Page Sidebaar         |  Home Page       |   Home Page               |  Home Page
+No Internet Connection Page        |       |                | 
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_5.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_7.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_6.jpg?raw=true)|
+![](https://user-images.githubusercontent.com/24698014/83753605-3a2cd080-a688-11ea-9047-dd201e884574.png?raw=true)
 
 
 
